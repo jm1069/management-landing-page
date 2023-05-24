@@ -19,6 +19,7 @@
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
+    color: #1d2122;
 }
 
 .LinksContainer{
@@ -42,6 +43,7 @@
     padding: 15px 30px;
     font-size: 18px;
     font-weight: 500;
+    color: #444;
     border: 2px solid black;
     -webkit-box-shadow: 6px 8px 0px 1px #000000; 
     box-shadow: 6px 8px 0px 1px #000000;
