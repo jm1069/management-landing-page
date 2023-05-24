@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='NavbarContainer'>
         <div className='LogoContainer'>
-            <h1>Cranberry <span style={{color: '#b9a0ff'}}>.</span></h1>
+            <h1>Cranberry<span style={{color: '#b9a0ff'}}>.</span></h1>
         </div>
 
         <div className='LinksContainer'>
