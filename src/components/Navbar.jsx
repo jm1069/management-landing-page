@@ -26,7 +26,7 @@ const Navbar = () => {
 
         <button 
             className='Hamburger' 
-            onClick={() => {setIsNavExpanded(!isNavExpanded);console.log(isNavExpanded)}}
+            onClick={() => {setIsNavExpanded(!isNavExpanded);console.log('isExpanded: ' + isNavExpanded)}}
         >
             <RxHamburgerMenu/>
         </button>
