@@ -11,5 +11,8 @@ Preview:
 
 Todo:
 [] Add functionality to page
+
 [] Add new pages
+
 [] Add mobile
+
