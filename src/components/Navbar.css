@@ -3,7 +3,7 @@
     margin: 30px 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .NavbarContainer p:hover{
@@ -60,6 +60,7 @@
     margin-top: 10px;
     font-size: 24px;
     cursor: pointer;
+    color: #444;        /* iphone mobile... */
     background-color: rgba(0,0,0,0);
 }
 
@@ -89,4 +90,10 @@
     .Hamburger{
         display: block;
     }
+}
+
+@media only screen and (max-width: 500px) {
+    .NavbarContainer{
+        margin: 15px 30px;
+    }    
 }
