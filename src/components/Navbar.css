@@ -10,6 +10,17 @@
     justify-content: space-between;
 }
 
+.NavbarContainer p:hover{
+    cursor: pointer;
+    color: #b9a0ff;
+}
+
+.LogoContainer{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
 .LinksContainer{
     display: flex;
     align-items: center;
