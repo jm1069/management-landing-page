@@ -34,6 +34,13 @@
     border: 2px solid black;
     -webkit-box-shadow: 6px 8px 0px 1px #000000; 
     box-shadow: 6px 8px 0px 1px #000000;
+    cursor: pointer;
+}
+
+.JoinUsButton:active{
+    background-color: #8e75d1;
+    -webkit-box-shadow: 4px 6px 0px 1px #000000; 
+    box-shadow: 4px 6px 0px 1px #000000;
 }
 
 .Hamburger{
@@ -42,7 +49,8 @@
     border: none;
     margin-top: 10px;
     font-size: 24px;
-    background-color: white;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
 }
 
 .expanded{

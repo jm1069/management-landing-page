@@ -52,6 +52,13 @@
     border: 2px solid black;
     -webkit-box-shadow: 6px 8px 0px 1px #000000; 
     box-shadow: 6px 8px 0px 1px #000000;
+    cursor: pointer;
+}
+
+.StartNowButton:active{
+    background-color: #8e75d1;
+    -webkit-box-shadow: 4px 6px 0px 1px #000000; 
+    box-shadow: 4px 6px 0px 1px #000000;
 }
 
 .OurClients{
@@ -86,7 +93,25 @@
 
 
 @media only screen and (max-width: 1024px) {
-    .HeroContainer{
-        flex-direction: column-reverse;
+    .HeroContainerRight{
+        display: none;
+    }
+
+    .HeroContainerLeft{
+        text-align: center;
+        width: 100%;
+    }
+
+    .RegisterForm{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .OurClients{
+        margin-top: 10px;
+    }
+
+    .LogoContainer{
+        justify-content: space-between;
     }
 }
