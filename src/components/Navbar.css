@@ -35,3 +35,40 @@
     -webkit-box-shadow: 6px 8px 0px 1px #000000; 
     box-shadow: 6px 8px 0px 1px #000000;
 }
+
+.Hamburger{
+    z-index: 999;
+    display: none;
+    border: none;
+    margin-top: 10px;
+    font-size: 24px;
+    background-color: white;
+}
+
+.expanded{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: white;
+    z-index: 5;
+}
+
+.hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .LinksContainer{
+        display: none;
+    }
+
+    .AccountButtons{
+        display: none;
+    }
+
+    .Hamburger{
+        display: block;
+    }
+}
