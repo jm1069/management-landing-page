@@ -1,0 +1,85 @@
+*{
+    /* outline: 1px solid red; */
+}
+
+.HeroContainer{
+    margin: 100px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeroContainerLeft{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 650px;
+}
+
+.HeroContainerLeft h1{
+    font-size: 72px;
+    font-weight: 500;
+}
+
+.HeroContainerLeft p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #444;
+    margin: 20px 0;
+}
+
+.RegisterForm{
+    margin: 20px 0;
+    display: flex;
+    width: 100%;
+}
+
+.RegisterForm input{
+    font-size: 24px;
+    width: 350px;
+    padding: 10px 20px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 0;
+}
+
+.StartNowButton{
+    background-color: #b9a0ff;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid black;
+    -webkit-box-shadow: 6px 8px 0px 1px #000000; 
+    box-shadow: 6px 8px 0px 1px #000000;
+}
+
+.OurClients{
+    margin-top: 40px;
+    width: 100%;
+    color: #444
+}
+
+.OurClients h2{
+    font-weight: 400;
+}
+
+.LogoContainer{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.OurClients img{
+    width: 100px;
+}
+
+.HeroContainerRight{
+    display: flex;
+    width: 650px;
+    align-items: center;
+}
+
+.HeroContainerRight img{
+    width: 100%;
+}
