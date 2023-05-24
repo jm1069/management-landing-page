@@ -1,15 +1,13 @@
 import React from 'react'
 import './Hero.css'
 import HeroImage from '../assets/undraw_team_collaboration_re_ow29.svg'
-import { HiOutlineCursorClick } from "react-icons/hi";
-
 
 const Hero = () => {
   return (
     <div className='HeroContainer'>
         <div className='HeroContainerLeft'>
-            <h1>Operate the team by organizing the task <HiOutlineCursorClick/></h1>
-            <p>Cranbery is  built for every member of your project team
+            <h1>Operate the team by organizing the task</h1>
+            <p>Cranbery is built for every member of your project team
                to plan, manage, track and release great results.</p>
             <div className='RegisterForm'>
                 <input type='email'></input><button className='StartNowButton' type='submit'>Start Now</button>

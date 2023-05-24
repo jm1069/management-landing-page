@@ -1,6 +1,3 @@
-*{
-    /* outline: 1px solid red; */
-}
 
 .HeroContainer{
     margin: 100px 60px;
@@ -13,7 +10,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 650px;
+    width: 47%;
 }
 
 .HeroContainerLeft h1{
@@ -79,16 +76,17 @@
 }
 
 .OurClients img{
-    width: 100px;
+    max-width: 100px;
 }
 
 .HeroContainerRight{
-    display: flex;
-    width: 650px;
+    overflow: hidden;
+    width: 47%;
+    display: inline-block;
     align-items: center;
 }
 
-.HeroContainerRight img{
+.HeroContainerRight > img{
     width: 100%;
 }
 
