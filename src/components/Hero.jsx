@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='HeroContainer'>
         <div className='HeroContainerLeft'>
             <h1>Operate the team by organizing the task</h1>
-            <p>Cranbery is built for every member of your project team
+            <p>Testberry is built for every member of your project team
                to plan, manage, track and release great results.</p>
             <div className='RegisterForm'>
                 <input type='email'></input><button className='StartNowButton' type='submit'>Start Now</button>
